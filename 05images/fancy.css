@@ -119,11 +119,11 @@ footer p{
 /figure.wrapped {
     width: 30%;
     margin: 0 0 0 2%;
-    float: right;
 }
 figure.wrapped img {
-    width: 100%;
+    width: 25%;
     height: auto;
+    float: right;
 }
 figure.wrapped figcaption {
     text-align: center;
