@@ -116,7 +116,7 @@ footer p{
     margin: 0;
 }
 /*Figure stuff*/
-figure.wrapped {
+/figure.wrapped {
     width: 30%;
     margin: 0 0 0 2%;
 }
