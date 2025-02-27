@@ -1,0 +1,154 @@
+/*colors: #0A1426, #103240, #386D73, #77A6A1, #BAD9C8*/
+body {
+    font-family: "oxygen", serif; 
+    background-color: #0a1426;
+    margin: 0;
+}
+/*Header*/
+Header {
+    background-color: #103240;
+    padding: 1rem;
+    margin: 0px;
+    text-align: center;
+}
+header span {
+    color: #77a6a1;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+/*Navigation CSS*/
+nav {
+    background: #386d73;
+    text-align: center;
+}
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;  
+}
+nav a {
+    display: block;
+    padding: 0.83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #77a6a1;
+    font-weight: 700;
+}
+nav li.active a {
+    background-color: #bad9c8 ;    color: #0a1426;
+}
+nav li a:hover {
+    color: #103240;
+}
+/*Main stuff under div tag*/
+div {
+    padding: 1rem;
+}
+div h1 {
+    color: #386d73;
+}
+div h2 {
+    font-weight: 700;
+    color: #77a6a1;
+    margin-bottom: 0.2rem;
+}
+div h3 {
+    color: #77a6a1;
+    margin-bottom: 0.2rem;
+}
+div p {
+    margin: 0;
+    color: #bad9c8
+}
+div dl dt {
+    color: #77a6a1;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+div dl dd {
+   color: #BAD9C8;
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+div ol {
+    color: #BAD9C8;
+    list-style-type:upper-roman;
+}
+div ol li {
+  line-height: 125%;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+div strong {
+    font-weight: 700;
+    color: #77a6a1;
+}
+div em {
+    font-weight: 300;
+    color: #bad9c8;
+}
+div address {
+    font-style: normal;
+    color: #386d73;
+    background-color: #bad9c8;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid #386d73;
+    width: 200px;
+}
+div a {
+    color: #103240;
+}
+div a:hover {
+    color: #0a1426;
+}
+/*Footer*/
+footer { 
+    background-color: #103246; 
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    color: #77a6a1;
+    letter-spacing: 3px
+    }
+footer p{
+    margin: 0;
+}
+/*Figure stuff*/
+/figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #bad9c8;
+}
+div.gallery {
+    display: flex ;
+    flex-wrap: wrap;
+}
+div.gallery figure{
+    margin: 0.5rem 2% 0 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #bad9c8;
+}
+html, body {
+    height: 100%
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
