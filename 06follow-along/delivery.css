@@ -115,10 +115,10 @@ footer a {
 .myform label {
     margin: 0.5rem;
 }
-.myform label, .myform select, .myform [type="text"], .myform [type="tel"], .myform textarea{
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea{
     display: block;
 }
-.myform select, .myform [type="text"], .myform [type="tel"], .myform textarea {
+.myform select, .myform [type=text], .myform [type=tel], .myform textarea {
     border: 1px solid #888;
     padding: 0.3rem;
     width: 250px;
@@ -132,7 +132,7 @@ footer a {
 .myform :required {
     background: rgba(156,51,53,0.1)
 }
-.myform [type="submit"]{
+.myform [type=submit]{
     background-color: #43a0b6;
     border: none;
     padding: 1rem 2rem;
